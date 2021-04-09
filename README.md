@@ -7,5 +7,5 @@ The default 16 demo gestures are included unlike [SteBeeGizmo/DollarUnity](https
 
 ## Usage
 1. Initialize `DollarRecognizer dollarRecognizer = new DollarRecognizer();`
-2. Collect 2D strokes into a `List<Vector2>`
-3. Call `dollarRecognizer.Recognize(points_2d, useProtractor);`
+2. Collect 2D strokes into a `List<Vector2> points`
+3. Call `dollarRecognizer.Recognize(points, useProtractor);`
